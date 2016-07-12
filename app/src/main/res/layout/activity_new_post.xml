@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guest.discussionboard.NewPostActivity">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/imageView"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/background"
+    android:scaleType="centerCrop"
+    />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp">
+
+
+   <EditText
+       android:layout_width="200dp"
+       android:layout_marginLeft="10dp"
+       android:id="@+id/titleText"
+       android:layout_height="wrap_content"
+       android:hint="Title"
+       />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/postText"
+        android:layout_below="@+id/titleText"
+        android:layout_height="150dp"
+        android:hint="Post Content"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/category"
+        android:layout_below="@+id/postText"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/button4"
+        android:layout_below="@+id/category"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/colorAccent2"
+        android:text="Add"
+        android:textColor="@color/colorAccent"
+        />
+
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>

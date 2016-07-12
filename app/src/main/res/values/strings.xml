@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DiscussionBoard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="category_array">
+        <item>Work</item>
+        <item>Love</item>
+        <item>Miscellaneous</item>
+    </string-array>
+</resources>

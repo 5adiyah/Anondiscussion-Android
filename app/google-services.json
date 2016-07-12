@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "240410375298",
+    "firebase_url": "https://anonapp-bb3cb.firebaseio.com",
+    "project_id": "anonapp-bb3cb",
+    "storage_bucket": "anonapp-bb3cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240410375298:android:41d0e5380b92a09b",
+        "android_client_info": {
+          "package_name": "com.example.guest.discussionboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240410375298-jigfu6u02rev54se9tgn68mmi34tg0tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guest.discussionboard",
+            "certificate_hash": "FEFA97C742787560607EE32DF08BFCC0C4E0BAF5"
+          }
+        },
+        {
+          "client_id": "240410375298-cicch98huvou3p0kdbtgif3a8of70nlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4OYoGDHtPWXqCCOXM6pFgQlExxrYK4Lo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240410375298-cicch98huvou3p0kdbtgif3a8of70nlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
